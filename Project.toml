@@ -1,0 +1,13 @@
+name = "PrintTools"
+uuid = "466ec94f-58aa-4bf1-ae55-0fdfea5849a7"
+authors = ["josePereiro <jose.pereiro.lab@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
